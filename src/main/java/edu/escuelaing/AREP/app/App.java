@@ -6,8 +6,13 @@ package edu.escuelaing.AREP.app;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        calcular();
+    }
+    private static void calcular(){
+        Calculardora ans=new Calculardora(new String[]{"1","2","3","4","5","6","7","8","9","10","11","12","13","14"});
+        ans.media();
     }
 }
